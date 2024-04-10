@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.color-container
+{
+  background-color: white;
+  width: 100%;
+  height: 139px;
+  display: flex;
+  flex-direction: column ;
+  position: relative;
+}
+
+ul
+{
+  display: inline-flex;
+  position: absolute;
+  padding-left: 300px;
+  margin-left: 30px;
+}
+
+li
+{
+  padding-right: 20px;
+ display: flex;
+  
+}
+
+
+.nav-logo
+{
+  /* position: absolute; */
+  width:252px ;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.section-2-img
+{
+  width: 100%;
+  height: 271px;
+  object-fit:cover;
+}
+.midimg{
+  width:244px;
+  height:244px;
+  
+}
+.group{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+  p{
+  margin-left:30px;
+}
+.gp2{
+  width:220px;
+  height:550px;
+  margin:20px 20px 20px 20px;
+
+
+}
+.tromain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trophy{
+display: flex;
+flex-direction: row;  
+}
+.head h3{
+  margin-left:300px;
+  margin-top:50px;
+  color:gray;
+}
+.bt-1{
+  background-color:white;
+  border-radius: 4px;
+  border-color: green;
+  border-style: solid;
+  font-size:14px;
+  margin-left:15px;
+  padding: 5px;
+  color:green;
+
+}
+.new{
+  margin-top:50px;
+  margin-left:500px;
+  font-size:24px;
+   font-weight: lighter;
+}
+.bt-2{
+  margin-top:20px;
+  margin-left:25px;
+  color:green;
+  background-color:white;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: green;
+  padding: 5px 25px
+
+}
+.last{
+  margin-top:20px;
+  color:green;
+  background-color:white;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: green;
+  padding: 5px 25px;
+}
+.ls{
+  position: absolute;
+  width: 100%;
+  background-color: green;
+  height:50px;
+  color:white;
+
+}
+
+.search-bar
+{
+  position: absolute;
+  padding-left: 30px;
+  margin-left:500px ;
+  margin-top: 20px;;
+}
+
+.last-page
+{
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
